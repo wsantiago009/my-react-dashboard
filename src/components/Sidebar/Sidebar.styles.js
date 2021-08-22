@@ -4,16 +4,16 @@ export const Wrapper = styled.div`
     width:100%;
     max-width:281px;
     background-color:var(--primaryColor);
-    height:100vh;
+    min-height:100vh;
     padding:30px 25px;
+
+    #logo {
+        margin-bottom:20px;
+    }
 
     h3 {
         margin:0;
         color:#fff;
-    }
-
-    .menuWrapper {
-        margin-top:40px;
     }
 
     .icons {
